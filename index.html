@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annifirstary</title>
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FONT STYLE -->
+    <link rel="stylesheet" href="font-style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="martel-sans-regular">
+    <div class="main-container h-auto">
+      <!-- HEADER SECTION -->
+      <header
+        class="bg-[url('./src/img/BG-MOB.png')] h-screen bg-center bg-no-repeat bg-cover bg-fixed"
+      >
+        <div class="cover bg-black bg-opacity-10 h-full w-full">
+          <div
+            class="text-container h-1/2 w-full flex justify-center items-center"
+          >
+            <h1
+              class="text-4xl text-pink-500 martel-sans-extrabold tracking-[-.2rem]"
+            >
+              YR-1
+            </h1>
+          </div>
+        </div>
+      </header>
+      <!-- MESSAGE SECTION -->
+      <section class="message-container w-full py-12 px-8">
+        <div class="barcode-container flex justify-between items-center">
+          <h1 class="text-4xl martel-sans-black tracking-[-.3rem]">YR-1</h1>
+          <img src="./src/img/BARCODE.png" alt="barcode" class="w-1/3 h-8" />
+        </div>
+        <div class="message-content">
+          <p
+            class="martel-sans-bold text-4xl my-40 mb-[20rem] tracking-[-.15rem]"
+          >
+            Happy 1st anniversary, my love! It's hard to believe how quickly
+            time has flown by since you said 'I do.' This past year has been
+            filled with countless moments of love, laughter, and growth, and I
+            am grateful for every single one. You've brought so much joy and
+            warmth into my life. Here's to many more years of love, laughter,
+            and cherished memories together. I love you more than words can
+            express.
+          </p>
+        </div>
+      </section>
+      <!-- COUNTER SECTION -->
+      <section class="counter-section">
+        <div class="counter-content">
+          <h1 class="text-6xl martel-sans-black mb-40 tracking-[-.25rem]">
+            We've been <span class="text-9xl" data-count="365">0</span> days
+            <span class="text-8xl">together.</span>
+          </h1>
+          <h1 class="text-7xl martel-sans-black mb-10 tracking-[-.25rem]">
+            Go check some of the highlights what we've been through!
+          </h1>
+        </div>
+      </section>
+      <!-- MEMORIES SECTION -->
+      <div class="horizontal-container relative">
+        <div class="scroll">
+          <div class="scroll-wrapper"></div>
+        </div>
+      </div>
+      <!-- INVITATION SECTION -->
+      <section
+        class="invitation bg-black relative overflow-x-hidden h-full pt-20"
+      >
+        <div class="title-container mt-40 mb-20">
+          <h1
+            class="text-[6.5rem] leading-none text-white martel-sans-black tracking-[-.4rem]"
+          >
+            Dinner Invitation
+          </h1>
+        </div>
+        <div class="content-container relative h-full w-full overflow-hidden">
+          <div class="text-white martel-sans-extralight text-6xl pb-40">
+            <h3>Tuesday</h3>
+            <h3>25 June 2024</h3>
+            <h2>Dinner At</h2>
+            <div class="place-name absolute top-[6rem]">
+              <h1 class="text-pink-500 waterfall-regular text-[13rem]">
+                Marriott
+              </h1>
+            </div>
+          </div>
+          <div
+            class="w-full h-[21rem] mt-40 bg-[url('./src/img/image7.png')] bg-fixed bg-contain bg-no-repeat bg-bottom"
+          ></div>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
